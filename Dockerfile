@@ -10,4 +10,4 @@ RUN <<EOF
 EOF
 
 USER ${MY_USER}
-WORKDIR /home/${MY_USER}
+WORKDIR /mnt
