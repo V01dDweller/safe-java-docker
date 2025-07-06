@@ -1,6 +1,7 @@
 FROM openjdk:21-jdk-slim
 
 ARG MY_USER="v01ddweller"
+ARG MY_USER_COMMENT="The V01dDweller"
 
 # Creating a non-root user
 SHELL ["/usr/bin/bash", "-c"]
